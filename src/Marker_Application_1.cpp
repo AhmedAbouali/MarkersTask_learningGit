@@ -19,7 +19,7 @@ int _tmain()
 		cout << " " + s+"\n";
 	}
 	cout << "Displayed " + s;
-	
+	asdasdasdasd;
 	Obj_Marker_Manager.removeMarker();
 }
 
