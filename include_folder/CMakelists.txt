@@ -1,0 +1,9 @@
+
+set(include_files
+        Marker.h
+        MarkersParser.h
+        MarkerManager.h
+        )
+add_library(include_folder ${include_files})
+include_directories(include_folder\\)
+set_target_properties(include_folder PROPERTIES LINKER_LANGUAGE CXX)

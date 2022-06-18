@@ -15,7 +15,7 @@ const char* SAVED_MARKERS[] = {
 	"0			  0.5		   17		  0.005	\0",
 	"1			  0.02          4         1.8	\0",
 	"0			  0.75         25         1.2	\0",
-	"1			  0.02          2         7.231	\0",
+	"1			  0.02 dddfd         2         7.231	\0",
 };
 
 
@@ -42,9 +42,14 @@ std::vector<Marker> MarkersParser::parse()
 
 	return parsedMarkers;
 }
-
+void MarkersParser::save2()
+{
+    std::cout<<"I am at save function";
+	// Not implemented yet.
+}
 
 void MarkersParser::save(const std::vector<Marker>&)
 {
 	// Not implemented yet.
 }
+
